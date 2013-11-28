@@ -10,7 +10,7 @@ var jar = request.jar();
 var nextUserId = 0;
 var users = {};
 var activeUserCount = 0;
-var maxUserCount = 20;
+var maxUserCount = 50;
 var stats = {
   hitCount: 0,
   failedRequestCount: 0,
