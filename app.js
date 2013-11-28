@@ -1,3 +1,5 @@
+"use strict"
+
 // What's the correct way to do this?
 // Under load a lot of listeners are bound to each eventemitter based connections/sockets
 require('events').EventEmitter.prototype._maxListeners = 1000000;
