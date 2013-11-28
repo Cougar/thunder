@@ -1,0 +1,7 @@
+{
+  "name": "thunder",
+  "dependencies": {
+    "async": "*",
+    "request": "*"
+  }
+}
